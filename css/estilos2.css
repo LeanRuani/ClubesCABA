@@ -1,0 +1,221 @@
+/* ----------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+footer{
+  background-color: #293339;
+  line-height: 3;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  color: #FFF;
+  align-self: flex-end;
+}
+
+.web{
+  text-decoration: none;
+  color: #ecf024;
+}
+
+.web:hover{
+  color: #2579DF;
+}
+
+#flip {
+  border-radius: 0 0 50px 50px;
+  background-color: #58B3CA;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+}
+
+#flip span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#flip span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#flip:hover span {
+  padding-right: 15px;
+}
+
+#flip:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#panel2{
+    width: 50%;
+    text-align: center;
+    background: blue;
+    border: solid 1px #c3c3c3;
+    display: none;
+    border-radius: 0px 0px 43px 43px;
+}
+
+i:hover{
+  color:grey;
+  cursor: pointer;
+}
+
+/* ----------------MAPA------------------------ */
+
+
+.direccion{
+  margin: auto;
+
+  text-align: center;
+  font-size: 20px;
+  width: 95%;
+  background-color: #11aeb2;
+  border-radius: 0 0 6px 6px;
+  color:#fff;
+}
+
+.direccion a{
+  text-decoration: none;
+  color: #ecf024;
+}
+
+.direccion a:hover{
+  color: #2579DF;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.main{
+  float: left;
+  width: 50%;
+  max-width: 1000px;
+}
+
+.slides{
+  width: 100%;
+  position: block;
+  border:1px grey;
+}
+
+.slides img{
+  width: 80%;
+}
+
+.slidesjs-pagination{
+  background: #69C4DB;
+  list-style: none;
+  overflow: hidden;
+  border-radius: 0 0 6px 6px;
+}
+
+.slidesjs-pagination li{
+  float: left;
+}
+
+.slidesjs-pagination li a{
+  display: block;
+  padding: 10px 20px;
+  color:#fff;
+}
+
+.slidesjs-pagination li a:hover{
+  background: #ccc;
+  text-decoration: none;
+}
+
+.slides .active{
+  background: #ccc;
+}
+
+table td{
+  color:#fff;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background: #58B3CA;
+}
+
+header{
+  text-align: center;
+}
+
+header img{
+  width: 10%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;  
+}
+
+.img-thumbnail img{
+  width: auto;
+  max-width: 100px;
+}
+
+.tit{
+  font-size: 40px;
+}
+
+.acts{
+  background: #58B3CA;
+  width: 47%;
+  float: right;
+  border-radius: 10px;
+  margin-right: 10px; 
+}
+
+.acts h3{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.t{
+  background:#58B3CA;
+  float: right;
+}
+
+.t .tividades{
+  margin: 4px;
+  text-align: center;
+  font-size: 16px;
+  border:1px solid grey;
+  border-radius: 4px;
+  color: #fff;
+  float: left;
+  background: #2E9AFE;
+  -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+  -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+
+.t .tividades:hover{
+  background: #66D5DC;
+  color:#000;
+  cursor: pointer;
+}
+
+.actividades{
+  background: #fff;
+}
